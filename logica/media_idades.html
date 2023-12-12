@@ -1,0 +1,26 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function jumpLine(){
+        document.write("<br>");
+    }
+
+    function write(message){
+        document.write(message);
+        jumpLine();
+    }
+
+    var ano = 2023;
+    var idadeMarco = 23;
+    var idadeLarissa = 27;
+
+    write("Marco nasceu em " + (ano - idadeMarco) + " e tem " + idadeMarco + " anos");
+    nascimentoMarco = ano - idadeMarco;
+
+    write("Larissa nasceu em " + (ano - idadeLarissa) + " e tem " + idadeLarissa + " anos");
+    nascimentoMarco = ano - idadeLarissa;
+
+    write("Portanto, a média das idades é " + Math.round((idadeLarissa + idadeMarco)/2) + " anos");
+
+</script>
